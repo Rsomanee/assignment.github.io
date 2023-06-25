@@ -1,0 +1,45 @@
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    #sidebar {
+      width: 200px;
+      height: 100vh;
+      background-color: #af6198;;
+      position: fixed;
+    }
+    
+    #sidebar ul a{
+      color: #000;
+      padding-left: 40px;
+    }
+
+    #sidebar ul a i{
+      margin-right: 16px;
+    }
+
+     #content { 
+      margin-left: 200px;
+      padding: 20px;
+    } 
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+    
+    a {
+      display: block;
+      padding: 5px;
+      text-decoration: none;
+      color: #333;
+    }
+    
+    a:hover {
+      background-color: #ddd;
+    }
